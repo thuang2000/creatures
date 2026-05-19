@@ -46,7 +46,7 @@ function showType()
             document.querySelectorAll("div.creature").forEach(el => {
             //el.style.backgroundColor = "yellow";
 
-            let myType = el.dataset.creatureType;
+            let myType = el.dataset.creaturetype;
             
             switch(myType){
                 case "animal":
